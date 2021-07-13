@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'album',
     'storages',
     'blog',
+    'carousel',
 ]
 #INSTALLED_APPS += ('django_summernote', )
 MIDDLEWARE = [

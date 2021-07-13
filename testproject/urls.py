@@ -24,7 +24,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myprofile.urls', namespace='myprofile')),
     path('album/',include('album.urls',namespace='album')),
-    path('blog/',include('blog.urls',namespace='blog')) #namespace is app name
+    path('blog/',include('blog.urls',namespace='blog')), #namespace is app name
+    path('carousel',include('carousel.urls',namespace='carousel'))
 ]
 
 if settings.DEBUG:
